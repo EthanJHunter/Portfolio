@@ -2,19 +2,12 @@
 type: PageLayout
 title: Home
 colors: colors-a
-backgroundImage:
-  type: BackgroundImage
-  url: /images/bg1.jpg
-  backgroundSize: cover
-  backgroundPosition: center
-  backgroundRepeat: no-repeat
-  opacity: 75
 sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: I LOVE YOU LAUREN
-    subtitle: and i miss you
+    title: "Hello! \U0001F44B"
+    subtitle: ''
     styles:
       self:
         height: auto
@@ -25,8 +18,8 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-36
-          - pb-48
+          - pt-40
+          - pb-1
           - pl-4
           - pr-4
         alignItems: center
@@ -42,6 +35,38 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
+    text: "I'm Ethan Hunter, a Computer Science student based in Cardiff. I am heavily interested in cyber security and networks, I am currently working on getting certified, right now on the chopping block is the CCNA \U0001FA93, however CompTIA Security and Pentest + are in the pipeline as well!\n"
+  - type: HeroSection
+    title: ''
+    subtitle: ''
+    actions: []
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-26
+          - pb-5
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    text: >
+      Navigate through my website! My links are above, my projects are below, I
+      have a blog on CS subjects I find facinating, and posts where I try to teach
+      complex problems to beginners.
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -79,7 +104,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: Projects
+    subtitle: Check Out My Projects
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
